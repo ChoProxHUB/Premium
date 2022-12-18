@@ -3,7 +3,7 @@ print("test")
 _G.Time_Win = 10
 _G.Time_To_Top = 2.5
 _G.Time_ReJoin = 2]]
-wait("5")
+wait("3")
 print("ddddddqqqq")
 if game.PlaceId == 1962086868 then
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/naypramx/Ui__Project/Script/XeNonUi", true))()
