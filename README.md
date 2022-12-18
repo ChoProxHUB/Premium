@@ -95,11 +95,11 @@ wait(_G.Time_To_Top)
 local aq = game.workspace.tower.finishes.Finish
 print(a.CFrame)
 local TweenService = game:GetService("TweenService")
-local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(5, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
+local Tw = TweenService:Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(_G.Time_Win, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,0,false,0), 
 {CFrame = aq.CFrame}):Play()
-wait("2.5") --5
+wait("1") --5
 game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
-wait("2.5") --5
+wait(_G.Time_Win) --5
  Sector1:AddLabel("✅ : Rejoin ")
  wait(_G.Time_ReJoin) --2
  game:GetService("TeleportService"):Teleport(game.PlaceId)
